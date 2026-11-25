@@ -1,0 +1,29 @@
+{
+box-sizing: border-box;
+}
+body {
+font-family: sans-serif;
+line-height: 1.5;
+margin: 0;
+padding: 0;
+}
+section {
+margin-bottom: 2rem;
+}
+label {
+display: block;
+margin-top: 1rem;
+}
+input, select, button {
+display: block;
+margin-top: 0.25rem;
+max-width: 100%;
+}
+nav {
+display: flex;
+flex-wrap: wrap;
+gap: 0.5rem 1rem;
+}
+header, main, footer {
+padding: 0 1rem;
+}
